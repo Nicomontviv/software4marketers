@@ -180,7 +180,7 @@
   border: 2px solid rgb(0, 118, 122);
   display: inline-block;
   width: 90vw;
-  height: 238vw;
+  height: 260vw;
   max-width: 680px;
   max-height: 3400px;
   padding-bottom: 7%;
@@ -255,9 +255,9 @@
   border: 2px solid rgb(0, 118, 122);
   display: inline-block;
   width: 90vw;
-  height: 475vw;
+  height: 510vw;
   max-width: 680px;
-  max-height: 3600px;
+  max-height: 3700px;
   padding-bottom: 7%;
 }
 .h4-boxmodulos{
@@ -424,7 +424,7 @@
   background-color: rgba(0, 0, 0, 0.568);
   border-radius: 40px;
   width: 80vw;
-  height: 45vw;
+  height: 55vw;
   margin-top: 5%;
   margin-left: 10%;
 }
@@ -464,6 +464,8 @@
   margin-top: 4%;
 }
 .testimonio-texto{
+  margin-bottom: 5px;
+  margin-right: 5%;
   margin-left: 5%;
   font-size: 3vw;
   color: #fff;
@@ -522,7 +524,7 @@
 .wp-img{
   width: 3vw;
   height: 3vw;
-  margin-right: 5vw;
+  margin-right: 4vw;
   float: right;
 }
 /*------------------adaptacion pantalla completa---------------*/
