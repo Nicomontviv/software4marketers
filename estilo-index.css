@@ -180,7 +180,7 @@
   border: 2px solid rgb(0, 118, 122);
   display: inline-block;
   width: 90vw;
-  height: 260vw;
+  height: 270vw;
   max-width: 680px;
   max-height: 3400px;
   padding-bottom: 7%;
@@ -255,7 +255,7 @@
   border: 2px solid rgb(0, 118, 122);
   display: inline-block;
   width: 90vw;
-  height: 510vw;
+  height: 520vw;
   max-width: 680px;
   max-height: 3700px;
   padding-bottom: 7%;
@@ -476,6 +476,7 @@
   display: inline-block;
   width: 100vw;
   background-color: rgb(252, 247, 0);
+  margin-top: 20px;
 }
 .preguntas-h5{
   margin-left: 25%;
