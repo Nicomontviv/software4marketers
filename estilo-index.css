@@ -69,9 +69,9 @@
     padding-left: 0;
     border: 2px solid rgb(255, 238, 0);
     height: 54vw;
-    max-height: fit-content;
+    max-height: 720px;
     width:95vw;
-    max-width: 1000px;
+    max-width: 1200px;
     display: inline-block;
     position: relative;
     }
@@ -522,8 +522,7 @@
 .wp-img{
   width: 3vw;
   height: 3vw;
-  text-align: center;
-  margin-right: 40px;
+  margin-right: 5vw;
   float: right;
 }
 /*------------------adaptacion pantalla completa---------------*/
