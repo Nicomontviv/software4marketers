@@ -5,14 +5,32 @@
  
   width: 100%;
   margin: 0;
-  height: 500px;
+  height: 280px;
 }
 .imgfondo{
-  background-image: url('imagenfondo1.png');
-  background-attachment: fixed;
+  
   overflow: hidden;
   scroll-behavior: auto;
   overflow-y: auto;
+  background-image: url(imagenfondo1.png) ;
+  animation: movimiento 200s linear infinite alternate;
+}
+/*
+ background-size: 200%;linear-gradient(
+    to bottom right,
+    rgb(1, 18, 255) 15%,
+    rgb(0, 113, 179) 20%,
+    rgb(2, 1, 73) 40%,
+    rgb(0, 0, 0) 60%,
+    rgb(109, 1, 82) 80%
+  )*/
+@keyframes movimiento {
+  from{
+    background-position: 0;
+  }
+  to{
+    background-position: 100%;
+  }
 }
 .seccion-video__h1{
   display: inline-block;
@@ -24,6 +42,7 @@
   font-size: 5vw;
   text-align: center;
   position: static;
+  text-shadow: 2px 2px 2px rgb(2, 34, 216); 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .seccion-video__h2{
@@ -36,8 +55,9 @@
   font-size: 5vw;
   text-align: center;
   position: static;
+  text-shadow: 2px 2px 2px rgb(2, 34, 216); 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  
 }
 .seccion-video__videobox{
   height: 100vh;
@@ -45,15 +65,18 @@
   display: flex;
 }
 .seccion-video__container{
-    margin: 100px auto 0;
+    margin: 0px auto 0;
     padding-left: 0;
     border: 2px solid rgb(255, 238, 0);
-    height: 60vw;
+    height: 54vw;
     max-height: fit-content;
-    width:100vw;
-    max-width: 1080px;
+    width:95vw;
+    max-width: 1000px;
     display: inline-block;
-}
+    position: relative;
+    }
+/* ;
+*/
 .seccion-video__video{
    width: 100%;
    height: 100%;
@@ -108,9 +131,9 @@
 .detalles-boximagen{
   padding: 3%;
   width: 90vw;
-  height: 43vw;
+  height: 90vw;
   max-width: 630px;
-  max-height: 320px;
+  max-height: 630px;
   display: block;
   float: auto;
 }
@@ -157,9 +180,9 @@
   border: 2px solid rgb(0, 118, 122);
   display: inline-block;
   width: 90vw;
-  height: 225vw;
+  height: 235vw;
   max-width: 680px;
-  max-height: 3200px;
+  max-height: 3400px;
   padding-bottom: 7%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -231,7 +254,7 @@
   border: 2px solid rgb(0, 118, 122);
   display: inline-block;
   width: 90vw;
-  height: 460vw;
+  height: 475vw;
   max-width: 680px;
   max-height: 3600px;
   padding-bottom: 7%;
@@ -416,6 +439,7 @@
 }
 .testimonio-nombre{
   margin-left: 3%;
+  margin-bottom: 10%;
   padding-top: 3%;
   height: 1vw;
   font-size: 4vw;
@@ -424,10 +448,19 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+.testimonio-redes{
+  margin-left: 3%;
+  height: 1vw;
+  font-size: 2vw;
+  color: #fff;
+  text-shadow: 2px 0px 2px 2px #000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .testimonio-estrellas{
   width: 30vw;
   height: 6vw;
   padding-top: - 20px;
+  margin-top: 4%;
 }
 .testimonio-texto{
   margin-left: 5%;

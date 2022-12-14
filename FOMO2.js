@@ -5,7 +5,7 @@ const iterarFomo2 = setInterval(mostrarFomo2, 30000);
 function mostrarFomo2(){
     
     fomo.style.transitionDelay = "1000ms";
-    fomoH6.innerHTML = ` <font color = rgb(94, 255, 0)>${visitantes}</font> personas estan viendo esta página`;
+    fomoH6.innerHTML = ` <font color = rgb(9, 255, 0)>${visitantes}</font> personas estan viendo esta página`;
     fomo.style.backgroundColor = `rgba(63, 80, 110, 0.856)`;
     fomo.style.display = "block";
     
