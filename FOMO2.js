@@ -1,6 +1,6 @@
 
 let visitantes = 372;
-const iterarFomo2 = setInterval(mostrarFomo2, 30000);
+const iterarFomo2 = setInterval(mostrarFomo2, 16000);
 
 function mostrarFomo2(){
     
