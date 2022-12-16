@@ -15,7 +15,7 @@ function crearNombreCompleto(){
 const fomo = document.getElementById('FOMO');
 const fomoH6 = document.getElementById('FOMO-h6');
 
-const iterarFomo = setInterval(mostrarFomo, 360000);
+const iterarFomo = setInterval(mostrarFomo, 45000);
 
 function mostrarFomo(){
     let comprador = crearNombreCompleto();
