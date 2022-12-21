@@ -1,7 +1,7 @@
 const startingMinutes = 386;
 var time;
 
-if ((typeof(Storage) !== 'undefined') && ((isNaN(localStorage.getItem("tiempo")) ==false))) {
+if ((typeof(Storage.tiempo) !== 'undefined') && ((isNaN(localStorage.getItem("tiempo")) ==false))) {
     time = parseInt(localStorage.getItem("tiempo"));
     console.log(time);
 } else{
