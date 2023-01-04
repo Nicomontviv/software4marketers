@@ -1,12 +1,14 @@
 const startingMinutes = 386;
 var time;
 
-if ((typeof(Storage.tiempo) !== 'undefined') && ((isNaN(localStorage.getItem("tiempo")) ==false))) {
+if ((typeof(Storage) !== 'undefined') && ((isNaN(localStorage.getItem("tiempo")) ==false))) {
     time = parseInt(localStorage.getItem("tiempo"));
     console.log(time);
 } else{
     time = startingMinutes * 60;}
-
+if( isNaN(time)){
+        time = startingMinutes * 60;
+    }
 
 const countDownEl = document.getElementById('countDown');
 
